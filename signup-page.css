@@ -1,0 +1,109 @@
+.header{
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+    color: rgb(11, 129, 184);
+}
+.line{
+    margin: 0px 20px 0px 20px;
+    font-size: 5px;
+    border: 1px solid rgb(171, 227, 253);
+    box-shadow: 10px 10px 20px rgb(204, 226, 255);
+
+}
+.content-main{
+    box-shadow: 10px 10px 20px rgb(157, 199, 253);
+    width: 1100px;
+    height: 100%;
+    border-radius: 10px;
+    border-left: 1px solid rgb(103, 186, 241);
+    border-top: 1px solid rgb(103, 186, 241);
+    margin-left:125px;
+    margin-top:30px;
+
+}
+.header-1{
+    margin-left: 20px;
+    color: rgb(11, 129, 184);
+}
+.input-container{  
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+#email:invalid{
+    border: 2px solid red;
+}
+#email:placeholder-shown{
+    border: 1px solid rgb(47, 167, 204)
+     !important;
+   }
+#password:invalid{
+    border: 2px solid red;
+}
+#password:placeholder-shown{
+    border: 1px solid rgb(47, 167, 204)
+     !important;
+   }
+#con_password:invalid{
+    border: 2px solid red;
+}
+#con_password:placeholder-shown{
+    border: 1px solid rgb(47, 167, 204)
+     !important;
+   }
+#email:valid{
+    border: 2px solid rgb(25, 201, 25);
+}
+#password:valid{
+    border: 2px solid rgb(25, 201, 25);
+}
+#con_password:valid{
+    border: 2px solid rgb(25, 201, 25);
+}
+input:placeholder-shown{
+    border: 1px solid rgb(47, 167, 204)
+      !important;
+ }
+#toggle{
+    position: absolute;
+   transform: translate(0, 14%);
+   margin-left: 390px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.input-container1{  
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+#toggleCon{
+       position: absolute;
+      transform: translate(0, 14%);
+      margin-left: 390px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+.content{
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 0px;
+    margin: 10px 0px 50px 0px;
+    align-items: flex-start;
+}
+.content-image{
+    margin-top: 10px;
+    margin-right: 0px;
+}
+.image{
+    width: 625px;
+   height: 600px;
+    border-radius: 5px;
+}
+.content-signup{
+    margin-top: 20px;
+    margin-left: 50px;  
+    flex-grow: 1;
+}
+

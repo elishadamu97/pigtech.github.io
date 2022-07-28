@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #f5f6fa;
+    margin: 0;
+    width: 100%;
+}
+.header{
+    background-color: rgb(7, 2, 2);
+    height: 40px;
+    position:  sticky;
+    top: 0;
+    z-index: 9;
+}
+.logo{
+    padding-top: 6px;
+    margin-top: 0px;
+    color: rgb(255, 255, 255) ;
+    margin-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.content .nav-bar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+.admin-name{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.company{
+    color: #f5f6fa;
+}
+.admin{
+    color: rgb(234, 235, 231);
+    opacity: 9;
+}
+ul li a{
+    border-bottom: 1px solid #10558d;
+    display: block;
+    color: white;
+    padding: 13px 35px;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 20px;
+}
+
+#icons{
+    display: inline-block;
+    color: #dee4ec;
+    width: 30px;
+    font-size: 20px;
+}
+.content .nav-bar ul li a:hover,
+.content .nav-bar ul li a.active{
+    color: #0c7db1;
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+    text-decoration: none;
+}
+.content .nav-bar ul li a:hover #icons,
+.content .nav-bar ul li a.active #icons{
+    color: #0c7db1;
+    background:white;
+    text-decoration: none;
+}
+.details{
+    margin-top: 12px;
+    display: inline-flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.email{
+    margin-left:220px;
+}
+.phoneNumber{
+    margin-left: 30px;
+}
+
+.logout{
+    margin-left: 600px;
+}
+.email, .phoneNumber, .logout{
+    color: rgb(136, 133, 133);
+}
+.email:hover, .phoneNumber:hover, .logout:hover{
+    color: black;
+    text-decoration: none;
+    transition: .2s;
+}
+.settings-container{
+    box-shadow: 10px 10px 20px rgb(157, 199, 253);
+    width: 1000px;
+    height: 100%;
+    border-radius: 10px;
+    border-left: 1px solid rgb(103, 186, 241);
+    border-top: 1px solid rgb(103, 186, 241);
+    margin-left:300px;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+.settings-title{
+        text-align: center;
+        background-color: #0c7db1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        font-size: 40px;
+        font-weight: bold;
+}
+.settings-line{
+    margin: 0px 20px 0px 0px;
+    font-size: 5px;
+    border: 1px solid rgb(171, 227, 253);
+    box-shadow: 10px 10px 20px rgb(204, 226, 255);
+}
+.settings-move{
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    width: 1000px;
+    column-gap: 50px; 
+    flex-wrap: wrap; 
+}
+.settings-move1{
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.settings-move2{
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+#image{
+    border: 1px solid rgb(124, 156, 172);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.main-email{
+    margin-left: 20px;
+}
+.settings-email, .setting-password{
+    flex-direction: row;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.password-anchor{
+    color: white;
+    transition: 0.2s;
+}
+.password-anchor:hover{
+    color: white;
+    text-decoration: none;
+}
+
+

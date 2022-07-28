@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #f5f6fa;
+}
+.header{
+    background-color: rgb(7, 2, 2);
+    height: 40px;
+   
+    position:  sticky;
+    top: 0;
+    z-index: 9;
+}
+.logo{
+    padding-top: 6px;
+    margin-top: 0px;
+    color: rgb(255, 255, 255) ;
+    margin-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.details{
+    margin-top: 12px;
+    display: inline-flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.email{
+    margin-left:200px;
+}
+
+.phoneNumber{
+    margin-left: 30px;
+}
+
+.logout{
+    margin-left: 500px;
+}
+.email, .phoneNumber, .login, .logout{
+    color: rgb(136, 133, 133);
+}
+.email:hover, .phoneNumber:hover, .login:hover , .logout:hover{
+    color: black;
+    text-decoration: none;
+    transition: .2s;
+}
+.content .nav-bar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+.admin-name{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.company{
+    color: #f5f6fa;
+}
+.admin{
+    color: rgb(234, 235, 231);
+    opacity: 9;
+}
+ul li a{
+    border-bottom: 1px solid #10558d;
+    display: block;
+    color: white;
+    padding: 13px 35px;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 20px;
+}
+
+#icons{
+    display: inline-block;
+    color: #dee4ec;
+    width: 30px;
+    font-size: 20px;
+}
+.content .nav-bar ul li a:hover,
+.content .nav-bar ul li a.active{
+    color: #0c7db1;
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+    text-decoration: none;
+}
+.content .nav-bar ul li a:hover #icons,
+.content .nav-bar ul li a.active #icons{
+    color: #0c7db1;
+    background:white;
+    text-decoration: none;
+}
+.content-details{
+    border-radius: 5px;
+    width: 900px;
+    height: 750px;
+    background-color: #ebfbfc;
+    margin: auto;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+    box-shadow:0px 5px 12px 5px #cce8fa;
+}
+.content-1{
+    height: 100px;
+    background-color: #10558d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow:3px 4px 8px #b7cdda;
+    position: relative;
+    display: grid;
+    grid-template-rows:20px; 
+}
+.schedule{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 550px;
+}
+.location{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 525px;
+}
+.details-1{
+    text-align: left;
+    font-family: sans-serif;
+    padding: 30px 0px 0px 10px;
+
+}
+.form-1, .form-2, .form-3, .form-4{
+    margin-left: 20px;
+    padding-right: 50px;
+}
+.tasks{
+    padding-left: 20px;
+}
+
+.form-3{
+display: flex;
+flex-wrap: wrap;
+}
+
+.form-3>*{
+    flex: 1 1;
+}
+.form-4{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .form-4>*{
+        flex: 1 1;
+    }
+#selected{
+    height: 59px;
+}
+
+.form-control{
+    width: 100%;
+}
+
+#select{
+    margin-left:400px;
+}
+.space{
+    margin-right: 30px;
+}
+#button{
+    margin-left: 20px;
+}
+
+
+
+
